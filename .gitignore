@@ -1,0 +1,31 @@
+# Ignore everything except source code, scripts, .gitignore, and README.md
+__pycache__/
+*.py[cod]
+*.log
+.bootstrap/
+.conda/
+.vscode/
+assets/
+data/
+presentations/
+robotic-grasping/
+scripts/
+
+# Exclude documents, slides, checkpoints, datasets, and media
+*.md
+!/README.md
+*.pdf
+*.pptx
+*.pt
+*.pth
+*.npz
+*.npy
+*.png
+*.jpg
+*.jpeg
+*.obj
+*.mtl
+*.stl
+*.vrm
+*.tar.gz
+*.zip
